@@ -12,7 +12,7 @@
       subhead="Status: In Progress"
       actions={ [{ label: 'Export', icon: Download }, { label: 'Settings', icon: Settings }] }
       tags={ [{ label: 'High Priority' }, { label: 'Team Collaboration' }] }
-      navigations={ [{ label: 'View Details' }, { label: 'Edit Project' }] }
+      navigations={ [{ label: 'View Details', href: '#'}, { label: 'Edit Project', href: '#'}] }
     >
       Project milestones and deliverables are on track. Team collaboration metrics show strong engagement.
     </Card>
@@ -22,7 +22,7 @@
       subhead="24 active tasks"
       actions={ [{ label: 'Add Task', icon: Play }] }
       tags={ [{ label: 'Task Board' }, { label: 'Time Tracking' }] }
-      navigations={ [{ label: 'View All Tasks' }, { label: 'Assign Tasks' }] }
+      navigations={ [{ label: 'View All Tasks', href: '#'}, { label: 'Assign Tasks', href: '#'}] }
     >
       Manage your team's tasks and track progress with our intuitive task board.
     </Card>
@@ -32,7 +32,7 @@
       subhead="Q3 2024"
       actions={ [{ label: 'Export Data', icon: Download }] }
       tags={ [{ label: 'Analytics' }, { label: 'Metrics' }] }
-      navigations={ [{ label: 'View Dashboard' }, { label: 'Custom Reports' }] }
+      navigations={ [{ label: 'View Dashboard', href: '#'}, { label: 'Custom Reports', href: '#'}] }
     >
       Analyze team performance metrics and identify areas for improvement.
     </Card>
@@ -42,7 +42,7 @@
       subhead="Capacity Analysis"
       actions={ [{ label: 'Update Schedule', icon: Settings }] }
       tags={ [{ label: 'Resource Allocation' }, { label: 'Scheduling' }] }
-      navigations={ [{ label: 'View Calendar' }, { label: 'Adjust Resources' }] }
+      navigations={ [{ label: 'View Calendar', href: '#'}, { label: 'Adjust Resources', href: '#'}] }
     >
       Optimize resource allocation and ensure project timelines are met.
     </Card>
@@ -52,7 +52,7 @@
       subhead="Latest Reviews"
       actions={ [{ label: 'Send Survey', icon: Send }, { label: 'Search', icon: Search }] }
       tags={ [{ label: 'Customer Success' }, { label: 'Feedback Loop' }] }
-      navigations={ [{ label: 'View Analytics' }, { label: 'Manage Feedback' }] }
+      navigations={ [{ label: 'View Analytics', href: '#'}, { label: 'Manage Feedback', href: '#'}] }
     >
       Gather and analyze client feedback to improve service delivery.
     </Card>
